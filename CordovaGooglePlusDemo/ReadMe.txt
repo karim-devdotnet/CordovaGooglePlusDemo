@@ -36,14 +36,53 @@ Android Signing Certificate SHA-1: DA:39:A3:EE:5E:6B:4B:0D:32:55:BF:EF:95:60:18:
 
 
 Downloaded google-services.json file contains:
-{"installed":
-	{
-		"project_id":"project-7499442332703738664",
-		"auth_uri":"https://accounts.google.com/o/oauth2/auth",
-		"token_uri":"https://accounts.google.com/o/oauth2/token",
-		"auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs",
-		"redirect_uris":["urn:ietf:wg:oauth:2.0:oob","http://localhost"]
-	}
+{
+  "project_info": {
+    "project_number": "532680238703",
+    "project_id": "project-7499442332703738664"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532680238703:android:2c7af2928642e2ef",
+        "android_client_info": {
+          "package_name": "io.cordova.myappeb19fc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532680238703-dlc99l4qoheu3d4e9u4n6qgetciboc6g.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "532680238703-ibbndadhl9k471r259ejc8lee45dlgoo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.cordova.myappeb19fc",
+            "certificate_hash": "7816cd31bd37bc3761bb221dc5a568722c0b46b2"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNBi1vE7qHnAL3J_GXxGw9cIQ--4bicQU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
 }
 
 Step 3:

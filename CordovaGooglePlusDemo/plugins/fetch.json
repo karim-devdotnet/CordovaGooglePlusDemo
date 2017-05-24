@@ -9,12 +9,13 @@
     },
     "cordova-plugin-googleplus": {
         "source": {
-            "type": "registry",
-            "id": "https://github.com/EddyVerbruggen/cordova-plugin-googleplus"
+            "type": "git",
+            "url": "https://github.com/EddyVerbruggen/cordova-plugin-googleplus",
+            "subdir": "."
         },
         "is_top_level": true,
         "variables": {
-            "REVERSED_CLIENT_ID": "com.googleusercontent.apps.532680238703-e8hoairtc6jg356siukkc6nk2m0np96c"
+            "REVERSED_CLIENT_ID": "com.googleusercontent.apps.532680238703-ot5pgevi9j2lj6r0qq5ght5jkqa51u55"
         }
     }
 }

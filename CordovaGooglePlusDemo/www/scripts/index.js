@@ -35,7 +35,8 @@
       window.plugins.googleplus.login(
           {
               // optional clientId of your Web application from Credentials settings of your project - On Android, this MUST be included to get an idToken. On iOS, it is not required.
-              'webClientId': '532680238703-buvcrqdvdo22q0i975urc063uq76ojfp.apps.googleusercontent.com'
+              'webClientId': '532680238703-dlc99l4qoheu3d4e9u4n6qgetciboc6g.apps.googleusercontent.com'//,
+              //'offline': true, // optional, but requires the webClientId - if set to true the plugin will also return a serverAuthCode, which can be used to grant offline access to a non-Google server
           },
           function (obj) {
             document.querySelector("#image").src = obj.imageUrl;
@@ -70,7 +71,8 @@
         window.plugins.googleplus.trySilentLogin(
             {
                 // optional clientId of your Web application from Credentials settings of your project - On Android, this MUST be included to get an idToken. On iOS, it is not required.
-                'webClientId': '532680238703-buvcrqdvdo22q0i975urc063uq76ojfp.apps.googleusercontent.com'
+                'webClientId': '532680238703-dlc99l4qoheu3d4e9u4n6qgetciboc6g.apps.googleusercontent.com',
+                'offline': true, // optional, but requires the webClientId - if set to true the plugin will also return a serverAuthCode, which can be used to grant offline access to a non-Google server
             },
             function (obj) {
                 document.querySelector("#image").src = obj.imageUrl;
